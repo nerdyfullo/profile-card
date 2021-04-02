@@ -39,6 +39,7 @@ body {
     left: -30em;
     z-index: -1;
     transform: rotate(-270deg);
+    opacity: .3;
     
 }
 
@@ -52,6 +53,7 @@ body {
     right: -30em;
     z-index: -1;
     transform: rotate(270deg);
+    opacity: .3;
 }
 
 .card {
