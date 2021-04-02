@@ -28,6 +28,30 @@ body {
     min-height: 100vh;
 }
 
+.card::before {
+    content: "";
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background: url(https://nerdyfullo.github.io/profile-card/images/bg-pattern-top.svg) no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background: url(https://nerdyfullo.github.io/profile-card/images/bg-pattern-top.svg) no-repeat;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+
 .card {
     background-color: white;
     max-width: 21.875em;
