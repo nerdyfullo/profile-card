@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap');
+
+:root {
+
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    background-color: var(--Darkcyan);
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    max-width: 21.875em;
+    min-width: 20.3125em;
+    border-radius: 1em;
+}
+
+.card-header {
+    min-height: 8.75em;
+    background: url(/images/bg-pattern-card.svg);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
+
+.pp {
+    border-radius: 50%;
+    margin-top: -3em;
+    border: .3em solid white;
+}
+
+.card-body .title {
+    font-weight: 700;
+}
+
+.card-body span {
+    font-weight: 300;
+    color: var(--Darkgray);
+}
+
+.card-body .location {
+    color: var(--Darkgray);
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5.625em;
+    border-top: .2em solid #e8e8e8;
+}
+
+.card-footer .count {
+    font-weight: 700;
+}
+
+.card-footer span {
+    font-weight: 300;
+    color: var(--Darkgray);
+    font-size: .7em;
+    
+}
+
+
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    bottom: .5em;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: 700;
+}
